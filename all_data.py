@@ -58,6 +58,6 @@ if query:
 else:
     st.info("Please enter a search query to see results.")
 
-st.subheader("See Data Tables:)
+st.subheader("See Data Tables:")
 tables_url = "https://your-tables-app-url.com"  # Replace with your actual URL
 st.markdown(f"[Click here to view the detailed data tables]({tables_url})")
