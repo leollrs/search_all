@@ -58,28 +58,6 @@ if query:
 else:
     st.info("Please enter a search query to see results.")
 
-#st.title("Unified Data Table")
-#st.dataframe(df)
-# --- Display Individual CSV Tables ---
-#st.title("Individual Data Tables")
-
-#try:
-  #  grants_df = pd.read_csv("grants_data.csv")
- #   st.header("Grants Data")
-  #  st.dataframe(grants_df)
-#except Exception as e:
- #   st.error(f"Error loading grants_data.csv: {e}")
-
-#try:
- #   subastas_df = pd.read_csv("subastas_data.csv")
-  #  st.header("Subastas Data")
-   # st.dataframe(subastas_df)
-#except Exception as e:
- #   st.error(f"Error loading subastas_data.csv: {e}")
-
-#try:
- #   licitaciones_df = pd.read_csv("licitaciones_data.csv")
-  #  st.header("Licitaciones Data")
-   # st.dataframe(licitaciones_df)
-#except Exception as e:
- #   st.error(f"Error loading licitaciones_data.csv: {e}")
+st.subheader("See Data Tables:)
+tables_url = "https://your-tables-app-url.com"  # Replace with your actual URL
+st.markdown(f"[Click here to view the detailed data tables]({tables_url})")
