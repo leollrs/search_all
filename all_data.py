@@ -61,25 +61,25 @@ else:
 #st.title("Unified Data Table")
 #st.dataframe(df)
 # --- Display Individual CSV Tables ---
-st.title("Individual Data Tables")
+#st.title("Individual Data Tables")
 
-try:
-    grants_df = pd.read_csv("grants_data.csv")
-    st.header("Grants Data")
-    st.dataframe(grants_df)
-except Exception as e:
-    st.error(f"Error loading grants_data.csv: {e}")
+#try:
+  #  grants_df = pd.read_csv("grants_data.csv")
+ #   st.header("Grants Data")
+  #  st.dataframe(grants_df)
+#except Exception as e:
+ #   st.error(f"Error loading grants_data.csv: {e}")
 
-try:
-    subastas_df = pd.read_csv("subastas_data.csv")
-    st.header("Subastas Data")
-    st.dataframe(subastas_df)
-except Exception as e:
-    st.error(f"Error loading subastas_data.csv: {e}")
+#try:
+ #   subastas_df = pd.read_csv("subastas_data.csv")
+  #  st.header("Subastas Data")
+   # st.dataframe(subastas_df)
+#except Exception as e:
+ #   st.error(f"Error loading subastas_data.csv: {e}")
 
-try:
-    licitaciones_df = pd.read_csv("licitaciones_data.csv")
-    st.header("Licitaciones Data")
-    st.dataframe(licitaciones_df)
-except Exception as e:
-    st.error(f"Error loading licitaciones_data.csv: {e}")
+#try:
+ #   licitaciones_df = pd.read_csv("licitaciones_data.csv")
+  #  st.header("Licitaciones Data")
+   # st.dataframe(licitaciones_df)
+#except Exception as e:
+ #   st.error(f"Error loading licitaciones_data.csv: {e}")
